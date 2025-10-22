@@ -6,6 +6,16 @@
 
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
+<!-- PALM Favicon - Override existing favicons -->
+<link rel="icon" type="image/png" sizes="32x32" href="{{ base_path }}/images/palm-logo.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ base_path }}/images/palm-logo.png">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ base_path }}/images/palm-logo.png">
+<link rel="icon" type="image/png" sizes="512x512" href="{{ base_path }}/images/palm-logo.png">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/palm-logo.png">
+<link rel="shortcut icon" href="{{ base_path }}/images/palm-logo.png">
+<!-- SVGファビコンも上書き -->
+<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/palm-logo.png">
+
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">

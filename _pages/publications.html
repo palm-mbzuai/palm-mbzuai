@@ -1,36 +1,161 @@
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<style>
+.publication-list {
+  font-size: 0.9em;
+  line-height: 1.5;
+}
 
-{% include base_path %}
+.publication-list li {
+  margin-bottom: 1.2em;
+}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+.publication-list strong {
+  font-size: 1em;
+}
 
+.publication-list em {
+  font-size: 0.95em;
+}
+</style>
 
+<h2>Refereed Papers</h2>
 
+<h3>2025</h3>
+
+<ul class="publication-list">
+<li><strong>Transformer Key-Value Memories Are Nearly as Interpretable as Sparse Autoencoders</strong><br>
+Mengyu Ye, Jun Suzuki, Tatsuro Inaba, <strong>Tatsuki Kuribayashi</strong><br>
+<em>Proceedings of The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025)</em>, 2025/12<br>
+[to appear]</li>
+
+<li><strong>Can Language Models Learn Typologically Implausible Languages?</strong><br>
+Tianyang Xu, <strong>Tatsuki Kuribayashi</strong>, Yohei Oseki, Ryan Cotterell, Alex Warstadt<br>
+<em>Transactions of the Association for Computational Linguistics (TACL)</em><br>
+[<a href="https://arxiv.org/abs/2502.12317">arXiv</a>]</li>
+
+<li><strong>Which Word Orders Facilitate Length Generalization in LMs? An Investigation with GCG-Based Artificial Languages</strong><br>
+*Nadine El-Naggar, *<strong>Tatsuki Kuribayashi</strong>, Ted Briscoe<br>
+<em>Proceedings of The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025, main long)</em>, 2025/11<br>
+[<a href="https://arxiv.org/abs/2510.12722">arXiv</a>]</li>
+
+<li><strong>Large Language Models Are Human-Like Internally</strong><br>
+<strong>Tatsuki Kuribayashi</strong>, Yohei Oseki, Souhaib Ben Taieb, Kentaro Inui, Timothy Baldwin<br>
+<em>Transactions of the Association for Computational Linguistics (TACL)</em> (to be presented at EMNLP 2025)<br>
+[<a href="https://arxiv.org/abs/2502.01615">arXiv</a> | <a href="https://github.com/kuribayashi4/surprisal_internal_layers">code</a>]</li>
+
+<li><strong>GCG-Based Artificial Languages for Evaluating Inductive Biases of Neural Language Models</strong><br>
+Nadine El-Naggar, <strong>Tatsuki Kuribayashi</strong>, Ted Briscoe<br>
+<em>Proceedings of Conference on Computational Natural Language Learning (CoNLL 2025)</em>, 2025/08<br>
+[<a href="https://aclanthology.org/2025.conll-1.35/">paper</a>]</li>
+
+<li><strong>Can LLMs Simulate L2-English Dialogue? An Information-Theoretic Analysis of L1-Dependent Biases</strong><br>
+Rena Wei Gao, Xuetong Wu, <strong>Tatsuki Kuribayashi</strong>, Mingrui Ye, Siya Qi, Carsten Roever, Yuanxing Liu, Zheng Yuan, Jey Han Lau<br>
+<em>Proceedings of The 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025, main long)</em>, 2025/08<br>
+[<a href="https://aclanthology.org/2025.acl-long.219/">paper</a> | <a href="https://arxiv.org/abs/2502.14507">arXiv</a>]</li>
+
+<li><strong>Can Input Attributions Explain Inductive Reasoning in In-Context Learning?</strong><br>
+Mengyu Ye, <strong>Tatsuki Kuribayashi</strong>, Goro Kobayashi, Jun Suzuki<br>
+<em>Findings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025, Findings long)</em>, 2025/08<br>
+[<a href="https://aclanthology.org/2025.findings-acl.1092/">paper</a> | <a href="https://arxiv.org/abs/2412.15628">arXiv</a>]</li>
+
+<li><strong>Syntactic Learnability of Echo State Neural Language Models at Scale</strong><br>
+Ryo Ueda, <strong>Tatsuki Kuribayashi</strong>, Shunsuke Kando, Kentaro Inui<br>
+<em>The 14th Workshop on Cognitive Modeling and Computational Linguistics (CMCL 2025, Non-archival)</em>, 2025/05<br>
+[<a href="https://arxiv.org/abs/2503.01724">arXiv</a>]</li>
+
+<li><strong>Libra-Leaderboard: Towards Responsible AI through a Balanced Leaderboard of Safety and Capability</strong><br>
+Haonan Li, Xudong Han, ..., <strong>Tatsuki Kuribayashi</strong>, ..., Eduard Hovy, Iryna Gurevych, Preslav Nakov, Monojit Choudhury, Timothy Baldwin<br>
+<em>Proceedings of 2025 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL 2025, system demonstrations track)</em>, 2025/04<br>
+[paper] | [<a href="https://arxiv.org/abs/2412.18551">arXiv</a>]</li>
+
+<li><strong>Does Vision Accelerate Hierarchical Generalization of Neural Language Learners?</strong><br>
+<strong>Tatsuki Kuribayashi</strong>, Timothy Baldwin<br>
+<em>Proceedings of The 31st International Conference on Computational Linguistics (COLING 2025, long)</em>, 2025/01<br>
+[<a href="https://aclanthology.org/2025.coling-main.127/">paper</a> | <a href="https://arxiv.org/abs/2302.00667">arXiv</a>]</li>
+</ul>
+
+<h3>2024</h3>
+
+<ul class="publication-list">
+<li><strong>CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark</strong><br>
+David Romero, Chenyang Lyu, Haryo Akbarianto Wibowo,...,<strong>Tatsuki Kuribayashi</strong>,...,Thamar Solorio, Alham Fikri Aji<br>
+<em>Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks (NeurIPS 2024 Datasets and Benchmarks Track)</em>, 2024/12<br>
+[<a href="https://neurips.cc/virtual/2024/poster/97798">paper</a> | <a href="https://arxiv.org/abs/2406.05967">arXiv</a>]</li>
+
+<li><strong>First Heuristic Then Rational: Dynamic Use of Heuristics in Language Model Reasoning</strong><br>
+Yoichi Aoki, Keito Kudo, <strong>Tatsuki Kuribayashi</strong>, Shusaku Sone, Masaya Taniguchi, Keisuke Sakaguchi, Kentaro Inui<br>
+<em>Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP 2024, main short)</em>, 2024/12<br>
+[<a href="https://aclanthology.org/2024.emnlp-main.789/">paper</a> | <a href="https://arxiv.org/abs/2406.16078">arXiv</a>]</li>
+
+<li><strong>Emergent Word Order Universals from Cognitively-Motivated Language Models</strong><br>
+<strong>Tatsuki Kuribayashi</strong>, Ryo Ueda, Ryo Yoshida, Yohei Oseki, Ted Briscoe, Timothy Baldwin<br>
+<em>Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024, main long)</em>, 2024/08 (acceptance rate: 940/4407=21.3%)<br>
+[<a href="https://aclanthology.org/2024.acl-long.781/">paper</a> | <a href="https://arxiv.org/abs/2402.12363">arXiv</a>]</li>
+
+<li><strong>Psychometric Predictive Power of Large Language Models</strong><br>
+<strong>Tatsuki Kuribayashi</strong>, Yohei Oseki, Timothy Baldwin<br>
+<em>Findings of the 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2024, Findings long)</em>, 2024/06 (acceptance rate: top 869/2434=35.7%)<br>
+[<a href="https://aclanthology.org/2024.findings-naacl.129/">paper</a> | <a href="https://arxiv.org/abs/2311.07484">arXiv</a>]</li>
+
+<li><strong>言語モデルの第二言語獲得</strong><br>
+大羽未悠, <strong>栗林樹生</strong>, 大内啓樹, 渡辺太郎<br>
+<em>自然言語処理</em>, Volume 31, Number 2, pp.433-455, 2024/06<br>
+[<a href="https://www.jstage.jst.go.jp/article/jnlp/31/2/31_433/_article/-char/ja">paper</a>]</li>
+
+<li><strong>To Drop or Not to Drop? Predicting Argument Ellipsis Judgments: A Case Study in Japanese</strong><br>
+Yukiko Ishizuki, <strong>Tatsuki Kuribayashi</strong>, Yuichiroh Matsubayashi, Ryohei Sasano and Kentaro Inui<br>
+<em>Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024, long)</em>, 2024/05 (acceptance rate: 1556/3417=52%)<br>
+[<a href="https://aclanthology.org/2024.lrec-main.1408/">paper</a> | <a href="https://arxiv.org/abs/2404.11315">arXiv</a>]</li>
+
+<li><strong>Analyzing Feed-Forward Blocks in Transformers through the Lens of Attention Maps</strong><br>
+Goro Kobayashi, <strong>Tatsuki Kuribayashi</strong>, Sho Yokoi, Kentaro Inui<br>
+<em>Proceedings of the 12th International Conference on Learning Representations (ICLR 2024, spotlight, top 5%)</em>, 2024/05 (acceptance rate: 2260/7262=31%)<br>
+[<a href="https://openreview.net/forum?id=mYWsyTuiRp">paper</a> | <a href="https://arxiv.org/abs/2302.00456">arXiv</a>]</li>
+</ul>
+
+<h3>2023</h3>
+
+<ul class="publication-list">
+<li><strong>Assessing Step-by-Step Reasoning against Lexical Negation: A Case Study on Syllogism</strong><br>
+Mengyu Ye, <strong>Tatsuki Kuribayashi</strong>, Jun Suzuki, Hiroaki Funayama and Goro Kobayashi<br>
+<em>Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP-2023, main short)</em>, 2023/12 (acceptance rate: 146/1041=14.0%)<br>
+[<a href="https://aclanthology.org/2023.emnlp-main.912/">paper</a> | <a href="https://arxiv.org/abs/2310.14868v1">arXiv</a>]</li>
+
+<li><strong>Assessing Chain-of-Thought Reasoning against Lexical Negation: A Case Study on Syllogism</strong><br>
+Mengyu Ye, <strong>Tatsuki Kuribayashi</strong>, Jun Suzuki, Hiroaki Funayama and Goro Kobayashi<br>
+<em>Proceedings of Student Research Workshop (SRW) at the 61st Annual Meeting of the Association for Computational Linguistics 2023 (ACL-SRW, Non-archival, best paper award)</em>, 2023/07</li>
+
+<li><strong>Use of an AI-powered Rewriting Support Software in Context with Other Tools: A Study of Non-Native English Speakers</strong><br>
+Takumi Ito, Naomi Yamashita, <strong>Tatsuki Kuribayashi</strong>, Masatoshi Hidaka, Jun Suzuki, Ge Gao, Jack Jamieson and Kentaro Inui<br>
+<em>The ACM Symposium on User Interface Software and Technology 2023 (UIST 2023)</em>, 2023/10<br>
+[<a href="https://dl.acm.org/doi/abs/10.1145/3586183.3606810">paper</a>]</li>
+
+<li><strong>Second Language Acquisition of Neural Language Models</strong><br>
+Miyu Oba, <strong>Tatsuki Kuribayashi</strong>, Hiroki Ouchi, Taro Watanabe<br>
+<em>Findings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL-2023, Findings long)</em>, 2023/07 (acceptance rate: top 39.1%)<br>
+[<a href="https://aclanthology.org/2023.findings-acl.856/">paper</a> | <a href="https://arxiv.org/abs/2306.02920">arXiv</a>]</li>
+
+<li><strong>Transformer Language Models Handle Word Frequency in Prediction Head</strong><br>
+Goro Kobayashi, <strong>Tatsuki Kuribayashi</strong>, Sho Yokoi and Kentaro Inui<br>
+<em>Findings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL-2023, Findings short)</em>, 2023/07 (acceptance rate: top 39.1%)<br>
+[<a href="https://aclanthology.org/2023.findings-acl.276/">paper</a> | <a href="https://arxiv.org/abs/2305.18294">arXiv</a>]</li>
+
+</ul>
+
+<h2>Preprints</h2>
+
+<ul class="publication-list">
+<li><strong>On Representational Dissociation of Language and Arithmetic in Large Language Models</strong><br>
+Riku Kisako, <strong>Tatsuki Kuribayashi</strong>, Ryohei Sasano<br>
+[<a href="https://arxiv.org/abs/2502.11932">arXiv</a>]</li>
+
+<li><strong>Think-to-Talk or Talk-to-Think? When LLMs Come Up with an Answer in Multi-Step Reasoning</strong><br>
+Keito Kudo, Yoichi Aoki, <strong>Tatsuki Kuribayashi</strong>, Shusaku Sone, Masaya Taniguchi, Ana Brassard, Keisuke Sakaguchi, Kentaro Inui<br>
+[<a href="https://arxiv.org/abs/2412.01113">arXiv</a>]</li>
+</ul>

@@ -41,3 +41,37 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Custom logo styles */
+.site-logo {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.masthead__menu-item--lg a {
+  display: flex;
+  align-items: center;
+}
+
+/* PALM Acronym Styling - Orange to Blue gradient */
+.palm-acronym {
+  font-weight: bold;
+}
+
+.palm-p { color: #FF8C00; } /* Dark Orange for P */
+.palm-a { color: #FF6B35; } /* Orange-Red for A */
+.palm-l { color: #228B22; } /* Forest Green for L */
+.palm-m { color: #1E90FF; } /* Dodger Blue for M */
+
+/* Title Logo Styling */
+.title-logo {
+  height: 1.5em;
+  width: auto;
+  margin-left: 0.1em;
+  margin-bottom: 0.2em;
+  vertical-align: middle;
+  display: inline-block;
+}
