@@ -9,7 +9,7 @@
           <li class="masthead__menu-item masthead__menu-item--lg persist">
             <a href="{{ base_path }}/">
               {% if site.logo %}
-                <img src="{{ site.logo | prepend: base_path }}" alt="{{ site.title }}" class="site-logo">
+                <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" class="site-logo">
               {% endif %}
               {{ site.title }}
             </a>
