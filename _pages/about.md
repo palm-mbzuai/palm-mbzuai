@@ -137,7 +137,7 @@ The PALM Group commenced in 2025 Fall (led by Tatsuki Kuribayashi) and belongs t
     <div class="news-content-wrapper">
       <div class="news-date">EMNLP 2025</div>
       <div class="news-actual-date">Nov. 2025</div>
-      <div class="news-content">1 TACL and 1 EMNLP main paper will be presented in EMNLP 2025 [<a href="https://arxiv.org/abs/2502.12317">paper</a> | <a href="https://arxiv.org/abs/2510.12722">paper</a>]</div>
+      <div class="news-content">1 TACL and 1 EMNLP main paper will be presented in EMNLP 2025 [<a href="https://arxiv.org/abs/2502.01615">paper</a> | <a href="https://arxiv.org/abs/2510.12722">paper</a>]</div>
     </div>
   </div>
 
