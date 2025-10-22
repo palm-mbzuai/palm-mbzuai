@@ -121,7 +121,7 @@ The PALM Group commenced in 2025 Fall (led by Tatsuki Kuribayashi) and belongs t
     <div class="news-content-wrapper">
       <div class="news-date">CPL 2025</div>
       <div class="news-actual-date">Dec. 2025</div>
-      <div class="news-content">1 oral presentation will be made in Computational Psycholinguistics Meeting 2025</div>
+      <div class="news-content">1 oral presentation will be made in Computational Psycholinguistics Meeting 2025 [<a href="https://cpl2025.sites.uu.nl/accepted-submissions/">web</a>]</div>
     </div>
   </div>
 
@@ -129,7 +129,7 @@ The PALM Group commenced in 2025 Fall (led by Tatsuki Kuribayashi) and belongs t
     <div class="news-content-wrapper">
       <div class="news-date">NeurIPS 2025</div>
       <div class="news-actual-date">Dec. 2025</div>
-      <div class="news-content">1 paper will be presented in NeurIPS</div>
+      <div class="news-content">1 paper will be presented in NeurIPS [paper to appear]</div>
     </div>
   </div>
 
@@ -137,7 +137,7 @@ The PALM Group commenced in 2025 Fall (led by Tatsuki Kuribayashi) and belongs t
     <div class="news-content-wrapper">
       <div class="news-date">EMNLP 2025</div>
       <div class="news-actual-date">Nov. 2025</div>
-      <div class="news-content">1 TACL paper will be presented in EMNLP 2025</div>
+      <div class="news-content">1 TACL and 1 EMNLP main paper will be presented in EMNLP 2025 [<a href="https://arxiv.org/abs/2502.12317">paper</a> | <a href="https://arxiv.org/abs/2510.12722">paper</a>]</div>
     </div>
   </div>
 
@@ -145,7 +145,7 @@ The PALM Group commenced in 2025 Fall (led by Tatsuki Kuribayashi) and belongs t
     <div class="news-content-wrapper">
       <div class="news-date">Recent Visit</div>
       <div class="news-actual-date">Sep. 20--Oct. 19, 2025</div>
-      <div class="news-content">Dr. Ana Brassard (RIKEN) visited our team!</div>
+      <div class="news-content"><a href="https://a-brassard.github.io/">Dr. Ana Brassard (RIKEN)</a> visited our team!</div>
     </div>
   </div>
 
