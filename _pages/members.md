@@ -141,7 +141,7 @@ author_profile: false
   </div>
 
   <div class="member-card">
-    <div class="member-name">Mohamad Hassan Rasmy Ahmad</div>
+    <div class="member-name">Mohamad Rasmy</div>
     <div class="member-role">MSc student</div>
     <div class="member-research"></div>
     <div class="member-icons">
@@ -154,7 +154,7 @@ author_profile: false
   </div>
 
   <div class="member-card">
-    <div class="member-name">Sara Saeed Ajab Hamad Alhajeri</div>
+    <div class="member-name">Sara Alhajeri</div>
     <div class="member-role">MSc student</div>
     <div class="member-research"></div>
     <div class="member-icons">
@@ -167,7 +167,7 @@ author_profile: false
   </div>
 
   <div class="member-card">
-    <div class="member-name">Rendi Chevi Daffa Ulhaq</div>
+    <div class="member-name">Rendi Chevi</div>
     <div class="member-role">PhD Student</div>
     <div class="member-research"></div>
     <div class="member-icons">
