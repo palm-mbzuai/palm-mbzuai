@@ -174,6 +174,9 @@ author_profile: false
       <div class="member-email">
         <a href="mailto:Rendi.Chevi@mbzuai.ac.ae">
           <i class="fas fa-envelope"></i>
+        <a href="https://scholar.google.com/citations?user=gU1JEeYAAAAJ" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-graduation-cap scholar-icon"></i>
+        </a>
         </a>
       </div>
     </div>

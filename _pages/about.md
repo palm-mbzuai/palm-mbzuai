@@ -21,6 +21,11 @@ We purse the questions, for example:
 
 The PALM Group commenced in 2025 Fall (led by Tatsuki Kuribayashi) and belongs to <a href="https://mbzuai.ac.ae/research-department/natural-language-processing-department/">MBZUAI NLP department</a>.
 
+
+### For future members:
+If you are interested in MSc/PhD opportunities, you should directly apply via <a herf="https://mbzuai.ac.ae/study/graduate-admission-process/">MBZUAI admission page</a>, and specify Tatsuki as a preferred supervisor (in, e.g., Research Statement).
+If you have a specific research idea and want to collaborate with us, please contact <a href="https://kuribayashi4.github.io/">Tatsuki Kuribayashi</a>. We do not accept internship.
+
 ## News
 
 <style>
@@ -143,7 +148,7 @@ The PALM Group commenced in 2025 Fall (led by Tatsuki Kuribayashi) and belongs t
 
   <div class="news-card news-highlight">
     <div class="news-content-wrapper">
-      <div class="news-date">Recent Visit</div>
+      <div class="news-date">Visitor</div>
       <div class="news-actual-date">Sep. 20--Oct. 19, 2025</div>
       <div class="news-content"><a href="https://a-brassard.github.io/">Dr. Ana Brassard (RIKEN)</a> visited our team!</div>
     </div>
