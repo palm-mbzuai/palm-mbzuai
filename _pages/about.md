@@ -23,7 +23,7 @@ The PALM Group commenced in 2025 Fall (led by Tatsuki Kuribayashi) and belongs t
 
 
 ### For future members:
-If you are interested in MSc/PhD opportunities, you should directly apply via <a href="https://mbzuai.ac.ae/study/graduate-admission-process/">MBZUAI admission page</a>, and specify Tatsuki as a preferred supervisor (in, e.g., Research Statement). Please also check <a href="https://kuribayashi4.github.io/prospective-students.html">this page</a> for prospective students.
+If you are interested in MSc/PhD opportunities for 2026 admission, you should directly apply via <a href="https://mbzuai.ac.ae/study/graduate-admission-process/">MBZUAI admission page</a> (final deadline: December 15th), and specify Tatsuki as a preferred supervisor (in, e.g., Research Statement). Please also check <a href="https://kuribayashi4.github.io/prospective-students.html">this page</a> for prospective students.
 If you have a specific research idea and want to collaborate with us, please contact <a href="https://kuribayashi4.github.io/">Tatsuki Kuribayashi</a>. We do not accept internship.
 
 ## News
