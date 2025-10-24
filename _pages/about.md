@@ -14,9 +14,9 @@ redirect_from:
 ## Welcome to PALM Group at MBZUAI!
 We explore the intersection among natural language processing (NLP), linguistics, and computational cognitive modeling.  
 We purse the questions, for example:
-- How can NLP contribute to fundamental research of language and humans? 
+- How can NLP contribute to fundamental research of language and humans (particularly on cognitive modeling topics)? 
 - How can NLP benefit from language science? 
-- How can we approach to understanding language in artificial intelligence and humans?
+- How can we approach to understanding language in artificial intelligence (interpretability topics)?
 - How and why are language processing and acquisition similar/different between artificial intelligence and humans? 
 
 The PALM Group commenced in 2025 Fall (led by Tatsuki Kuribayashi) and belongs to <a href="https://mbzuai.ac.ae/research-department/natural-language-processing-department/">MBZUAI NLP department</a>.
