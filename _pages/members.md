@@ -10,9 +10,10 @@ author_profile: false
 <style>
 .members-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
   gap: 20px;
   margin: 20px 0;
+  justify-content: start;
 }
 
 .member-card {
@@ -22,6 +23,8 @@ author_profile: false
   padding: 20px;
   text-align: center;
   transition: box-shadow 0.3s ease;
+  max-width: 400px;
+  width: 100%;
 }
 
 .member-card:hover {
@@ -126,7 +129,53 @@ author_profile: false
 }
 </style>
 
+<h2 class="section-title">Staff</h2>
 <div class="members-grid">
+  <div class="member-card">
+    <div class="member-name">Tatsuki Kuribayashi</div>
+    <div class="member-role">Assistant Professor</div>
+    <div class="member-research">NLP, cognitive modeling</div>
+    <div class="member-icons">
+      <div class="member-email">
+        <a href="mailto:Tatsuki.Kuribayashi@mbzuai.ac.ae">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+      <div class="member-website">
+        <a href="https://kuribayashi4.github.io/" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-globe website-icon"></i>
+        </a>
+        <a href="https://scholar.google.co.jp/citations?user=-bqmkaAAAAAJ" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-graduation-cap scholar-icon"></i>
+        </a>
+        <a href="https://github.com/kuribayashi4" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github github-icon"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 class="section-title">Students</h2>
+<div class="members-grid">
+  <div class="member-card">
+    <div class="member-name">Rendi Chevi</div>
+    <div class="member-role">PhD Student</div>
+    <div class="member-research"></div>
+    <div class="member-icons">
+      <div class="member-email">
+        <a href="mailto:Rendi.Chevi@mbzuai.ac.ae">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+      <div class="member-website">
+        <a href="https://scholar.google.com/citations?user=gU1JEeYAAAAJ" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-graduation-cap scholar-icon"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
   <div class="member-card">
     <div class="member-name">Mohamad Abdulsamad Ahmad Abdulla Almulla</div>
     <div class="member-role">MSc student</div>
@@ -167,46 +216,6 @@ author_profile: false
   </div>
 
   <div class="member-card">
-    <div class="member-name">Rendi Chevi</div>
-    <div class="member-role">PhD Student</div>
-    <div class="member-research"></div>
-    <div class="member-icons">
-      <div class="member-email">
-        <a href="mailto:Rendi.Chevi@mbzuai.ac.ae">
-          <i class="fas fa-envelope"></i>
-        <a href="https://scholar.google.com/citations?user=gU1JEeYAAAAJ" target="_blank" rel="noopener noreferrer">
-          <i class="fas fa-graduation-cap scholar-icon"></i>
-        </a>
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <div class="member-card">
-    <div class="member-name">Tatsuki Kuribayashi</div>
-    <div class="member-role">Assistant Professor</div>
-    <div class="member-research">NLP, cognitive modeling</div>
-    <div class="member-icons">
-      <div class="member-email">
-        <a href="mailto:Tatsuki.Kuribayashi@mbzuai.ac.ae">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </div>
-      <div class="member-website">
-        <a href="https://kuribayashi4.github.io/" target="_blank" rel="noopener noreferrer">
-          <i class="fas fa-globe website-icon"></i>
-        </a>
-        <a href="https://scholar.google.co.jp/citations?user=-bqmkaAAAAAJ" target="_blank" rel="noopener noreferrer">
-          <i class="fas fa-graduation-cap scholar-icon"></i>
-        </a>
-        <a href="https://github.com/kuribayashi4" target="_blank" rel="noopener noreferrer">
-          <i class="fab fa-github github-icon"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <div class="member-card">
     <div class="member-name">Trung The Tran</div>
     <div class="member-role">MSc student (Primary supervisor: Prof. Fajri Koto)</div>
     <div class="member-research"></div>
@@ -218,5 +227,7 @@ author_profile: false
       </div>
     </div>
   </div>
-
+</div>
+<div>
+We are also collaborating with <a href="https://mbzuai.ac.ae/study/faculty-directory/?department=natural-language-processing-department">MBZUAI NLP members</a> frequently.
 </div>
