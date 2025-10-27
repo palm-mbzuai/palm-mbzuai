@@ -19,7 +19,7 @@ We purse the questions, for example:
 - How can we approach to understanding language in artificial intelligence (interpretability topics)?
 - How and why are language processing and acquisition similar/different between artificial intelligence and humans? 
 
-The PALM Group commenced in 2025 Fall (led by Tatsuki Kuribayashi) and belongs to <a href="https://mbzuai.ac.ae/research-department/natural-language-processing-department/">MBZUAI NLP department</a>.
+The PALM Group commenced in Fall 2025 (led by Tatsuki Kuribayashi) and belongs to <a href="https://mbzuai.ac.ae/research-department/natural-language-processing-department/">MBZUAI NLP department</a>.
 
 
 ### For future members:
